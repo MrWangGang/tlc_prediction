@@ -1,7 +1,6 @@
 # 🧠 深度学习结合纳什均衡构建的风险竞争模型:网约车收益最大化预测与调度策略
 因数据集涉及到隐私,如需要请联系wanggang userbean@outlook.com
 ## 📝 1. 项目概述
-<img width="800" height="600" alt="两种策略收益对比图" src="https://github.com/user-attachments/assets/29d11dab-2891-46fa-b4e5-89854de53977" />
 
 
 本项目专注于城市交通领域的**微观行为分析**与**宏观趋势预测**。我们运用复杂的**深度学习**（时序预测）技术和严谨的**运筹学/博弈论**方法，致力于：
@@ -38,9 +37,7 @@
 
 #### 核心评估指标（Evaluation Metrics）：
 模型的性能通过以下关键指标进行衡量（其中 $N$ 为数据点总数，$y_i$ 为真实值，$\hat{y}_i$ 为预测值，$\bar{y}$ 和 $\bar{\hat{y}}$ 分别为真实值和预测值的均值）：
-<img width="1000" height="600" alt="rmse_curve" src="https://github.com/user-attachments/assets/bc3a6912-f7a3-47ff-8a21-a348dfe99471" />
-<img width="1000" height="600" alt="r2_curve" src="https://github.com/user-attachments/assets/136024c4-abf2-4c24-b445-7bc3a2ac8fff" />
-<img width="1500" height="800" alt="prediction_plot" src="https://github.com/user-attachments/assets/3f6b1871-a5d6-462b-9b9f-99e245d5690b" />
+
 
 1.  **平均绝对误差 (Mean Absolute Error, MAE)** - **主要优化目标**：
     $$\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|$$
@@ -101,6 +98,12 @@ $$P(s, a) = (\text{TripDist}_{s,a} \cdot R) - (\alpha \cdot \text{MoveCost}_{s, 
 三种资源配置（Low/Mid/High）与两种激励环境（Low/High）将组合形成 **六种** 场景，独立运行，并生成对应的博弈均衡策略和收益对比图。
 
 #### 最终的收益效果图
+<img width="1000" height="600" alt="rmse_curve" src="https://github.com/user-attachments/assets/bc3a6912-f7a3-47ff-8a21-a348dfe99471" />
+<img width="1000" height="600" alt="r2_curve" src="https://github.com/user-attachments/assets/136024c4-abf2-4c24-b445-7bc3a2ac8fff" />
+<img width="1500" height="800" alt="prediction_plot" src="https://github.com/user-attachments/assets/3f6b1871-a5d6-462b-9b9f-99e245d5690b" />
+
 <img width="800" height="600" alt="两种策略收益对比图" src="https://github.com/user-attachments/assets/96ed241a-6791-4367-9b27-deae372287a5" />
 
 <img width="2000" height="1200" alt="纳什均衡出租车分布图" src="https://github.com/user-attachments/assets/0318ddc8-34e6-4f0c-8552-302aaf296f0b" />
+
+
