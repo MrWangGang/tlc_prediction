@@ -1,5 +1,5 @@
 # 🧠 深度学习结合纳什均衡构建的风险竞争模型:网约车收益最大化预测与调度策略
-
+因数据集涉及到隐私,如需要请联系wanggang userbean@outlook.com
 ## 📝 1. 项目概述
 <img width="800" height="600" alt="两种策略收益对比图" src="https://github.com/user-attachments/assets/29d11dab-2891-46fa-b4e5-89854de53977" />
 
